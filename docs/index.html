@@ -16,6 +16,7 @@
 <link rel="mask-icon" href="./forFavIcon/safari-pinned-tab.svg" color="#5bbad5">
 <meta name="msapplication-TileColor" content="#b91d47">
 <meta name="theme-color" content="#ffffff">
+
   </head>
   <body>
     <header>
@@ -42,16 +43,27 @@
     <section id="newsletter">
       <div class="container">
         <h1>Subscribe To Our Newsletter</h1>
-        <form class="newsletter">
+        <form class="newsletter" action>
           <input type="email" placeholder="Enter Email...">
-          <input type="submit" value="OK"/button>
+          <button type="submit" class="button_1">OK</button>
 
         </form>
+
+        <form action="https://formspree.io/email@domain.tld" method="POST">
+          <input type="text" name="name"placeholder="youremail@gmail.com">
+          <input type="email" name="_replyto" placeholder="jesusistscheisse@gmail.com">
+          <input type="submit" value="Send">
+        </form>
+
       </div>
+
+      </script>
+
     </section>
 
     <footer>
       <p>REALITY I/O, Copyright &copy; 2019</p>
     </footer>
+
   </body>
 </html>
